@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Protótipo de redesign para VVS Turismo — passeios, receptivos e experiências em Pernambuco e Alagoas." />
+  <title>VVS Turismo — Protótipo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand" aria-label="VVS Turismo">
+        <img src="https://vvsturismo.com/wp-content/uploads/2024/07/Vvs-Turismo-e-receptivos-.png" alt="Logo VVS Turismo" />
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a class="active" href="#inicio">Início</a><a href="#experiencias">Destinos</a><a href="#passeios">Passeios</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="https://wa.me/5581988751337" target="_blank" rel="noopener">Solicitar orçamento <span>→</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="#inicio">Início</a><a href="#experiencias">Destinos</a><a href="#passeios">Passeios</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a>
+      <a class="btn btn-primary" href="https://wa.me/5581988751337" target="_blank" rel="noopener">Solicitar orçamento</a>
+    </div>
+  </header>
+  <main>
+    <section id="inicio" class="hero hero-banner-section"><div class="container"><div class="hero-banner reveal"><img src="assets/hero-composite.webp" alt="Banner da VVS Turismo com o ônibus azul e fotos dos passageiros" /></div></div></section>
+    <section id="passeios" class="services-strip"><div class="container service-grid">
+      <article class="service-item reveal"><div class="service-icon">▣</div><div><h3>Passeios privativos e regulares</h3><p>Para casais, famílias e grupos</p></div></article>
+      <article class="service-item reveal delay-1"><div class="service-icon">●</div><div><h3>Atendimento personalizado</h3><p>Do seu jeito, o ano todo</p></div></article>
+      <article class="service-item reveal delay-2"><div class="service-icon">◉</div><div><h3>Motoristas experientes</h3><p>Mais segurança na sua viagem</p></div></article>
+      <article class="service-item reveal delay-3"><div class="service-icon">◆</div><div><h3>Experiências em PE e AL</h3><p>Maragogi, Porto de Galinhas e muito mais</p></div></article>
+    </div></section>
+    <section id="experiencias" class="experiences section"><div class="container">
+      <div class="section-head"><div><span class="section-kicker">DESTINOS</span><h2>Experiências em destaque</h2><p>Destinos que encantam e ficam para sempre na memória.</p></div><a class="btn btn-outline hide-mobile" href="#contato">Ver todos os passeios <span>→</span></a></div>
+      <div class="card-grid">
+        <article class="experience-card reveal"><div class="card-image"><img src="https://vvsturismo.com/wp-content/uploads/2024/05/maragogi-875x1024.png" alt="Praia de Maragogi" /><span class="location-pill">Maragogi · AL</span></div><div class="card-body"><h3>Maragogi</h3><p>Águas cristalinas, piscinas naturais e paisagens de tirar o fôlego.</p><a href="#contato">Saiba mais <span>→</span></a></div></article>
+        <article class="experience-card reveal delay-1"><div class="card-image"><img src="https://vvsturismo.com/wp-content/uploads/2024/05/porto-de-galinhas-875x1024.png" alt="Vista aérea de Porto de Galinhas" /><span class="location-pill">Porto de Galinhas · PE</span></div><div class="card-body"><h3>Porto de Galinhas</h3><p>Piscinas naturais, mar azul e todo o charme do litoral pernambucano.</p><a href="#contato">Saiba mais <span>→</span></a></div></article>
+        <article class="experience-card reveal delay-2"><div class="card-image"><img src="https://vvsturismo.com/wp-content/uploads/2026/09/praia-do-cabo-1-875x1024.png" alt="Resort e beach club em Maragogi" /><span class="location-pill">Maragogi · AL</span></div><div class="card-body"><h3>Resorts e Beach Clubs</h3><p>Estrutura, lazer e conforto em cenários paradisíacos.</p><a href="#contato">Saiba mais <span>→</span></a></div></article>
+      </div>
+    </div></section>
+    <section class="trust section"><div class="container"><div class="trust-intro"><span class="section-kicker">TRANQUILIDADE EM CADA TRAJETO</span><h2>Viaje tranquilo</h2><p>Nossa prioridade é que você viva o melhor do seu destino com segurança e comodidade.</p></div>
+      <div class="trust-grid"><article class="trust-card reveal"><div class="trust-icon">✓</div><div><h3>Segurança em primeiro lugar</h3><p>Veículos revisados e viagens planejadas para você aproveitar com tranquilidade.</p></div></article><article class="trust-card reveal delay-1"><div class="trust-icon">▰</div><div><h3>Conforto em cada trajeto</h3><p>Veículos modernos e climatizados para uma experiência ainda melhor.</p></div></article><article class="trust-card reveal delay-2"><div class="trust-icon">≡</div><div><h3>Tudo bem organizado</h3><p>Roteiros planejados e suporte durante toda a sua viagem.</p></div></article></div>
+    </div></section>
+    <section id="avaliacoes" class="reviews section"><div class="container reviews-layout"><div class="reviews-copy"><span class="section-kicker">CONFIANÇA</span><h2>Confira nossas avaliações</h2><p>A confiança de quem já viajou com a gente.</p></div><div class="reviews-grid">
+      <a class="review-card" href="#"><div class="review-logo google">G</div><div><strong>Google</strong><span>Veja a opinião dos clientes</span></div><span class="arrow">→</span></a>
+      <a class="review-card" href="#"><div class="review-logo trip">◉</div><div><strong>Tripadvisor</strong><span>Veja a opinião dos clientes</span></div><span class="arrow">→</span></a>
+      <a class="review-card" href="https://www.instagram.com/vvsturismo/" target="_blank" rel="noopener"><div class="review-logo insta">◎</div><div><strong>Instagram</strong><span>Acompanhe nossos passeios</span></div><span class="arrow">→</span></a>
+    </div></div></section>
+    <section id="contato" class="cta section"><div class="container cta-box"><div><span class="section-kicker light">FALE COM A VVS</span><h2>Pronto para planejar sua próxima viagem?</h2><p>Conte para a equipe o destino que você procura e receba um atendimento personalizado.</p></div><a class="btn btn-white" href="https://wa.me/5581988751337" target="_blank" rel="noopener">Chamar no WhatsApp <span>→</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-grid"><div class="footer-brand"><img src="https://vvsturismo.com/wp-content/uploads/2024/07/Vvs-Turismo-e-receptivos-.png" alt="VVS Turismo" /><p>Transformando viagens em boas histórias.</p></div><div><strong>WhatsApp</strong><a href="https://wa.me/5581988751337">(81) 98875-1337</a></div><div><strong>Instagram</strong><a href="https://www.instagram.com/vvsturismo/" target="_blank" rel="noopener">@vvsturismo</a></div><div><strong>Pernambuco e Alagoas</strong><span>Maragogi, Porto de Galinhas e muito mais</span></div></div><div class="container footer-bottom"><span>© 2026 VVS Turismo. Protótipo visual para apresentação.</span><span>Design responsivo • Desktop e Mobile</span></div></footer>
+  <a class="floating-whatsapp" href="https://wa.me/5581988751337" target="_blank" rel="noopener">◉</a>
+  <script src="script.js"></script>
+</body>
+</html>
